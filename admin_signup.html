@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Sign Up</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/admin_login.css">
+
+</head>
+<body>
+    <div class="container bg-main-grey">
+        <h2 class="heading bg-light-blue">Event Management System</h2>
+        <form action="">
+            <table class="form-ele-cntnr">
+                <tr class="margin-bottom">
+                    <td class="label-fields bg-dark-blue"><label  for="vname" >User ID</label></td>
+                    <td class="col-spacing"></td>
+                    <td><input class="input-fields bg-light-blue" type="text" name="vname" placeholder="Vendor" required></td>
+                </tr>
+                <tr class="margin-bottom">
+                    <td class="label-fields bg-dark-blue"><label  for="vemail" >User ID</label></td>
+                    <td class="col-spacing"></td>
+                    <td><input class="input-fields bg-light-blue" type="email" name="vemail" placeholder="Vendor" required></td>
+                </tr>                 
+                <tr class="margin-bottom">
+                    <td class="label-fields bg-dark-blue"><label for="vpass">Password</label></td>
+                    <td class="col-spacing"></td>
+                    <td><input class="input-fields bg-light-blue" type="password" name="vpass" placeholder="Vendor Password" required></td>
+                </tr>
+                <tr class="margin-bottom">
+                    <td class="label-fields bg-dark-blue"><label for="category">Category</label></td>
+                    <td class="col-spacing"></td>
+                    <td>
+                        <select name="vcategory" id="" class="input-fields bg-light-blue">
+                            <option value="catering">Catering</option>
+                            <option value="florist">Florist</option>
+                            <option value="decoration">Decoration</option>
+                            <option value="lighting">Lighting</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="col-spacing"></td>
+                    <td> 
+                        <button class="btn login-btn">Sign Up</button>
+                    </td>
+                </tr>
+            </table>   
+        </form>
+    </div>
+    <a href="index.html">Home</a>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+ 
+/* universal classes */
+
+.bg-dark-blue{
+    background-color: rgb(74, 74, 234);
+}
+.bg-main-grey{
+    background-color: rgb(212, 210, 210);
+}
+.bg-light-blue{
+    background-color: #9dbfe5
+}
+/*==============================================================*/
+.container{
+    position:absolute;
+    width:50vw;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:0 20px 0 20px;
+}
+
+.heading{
+    text-align: center;
+    margin:30px 0 30px 0;
+    padding:10px;
+    
+}
+.btn-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.btn{
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    color:white;
+    font-size:16px;
+    height:60px;
+    width:150px;
+    padding:10px;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:rgba(74, 74, 234, 0.775);
+}
+
+
+/* Admin Login CSS */
+.login-btn{
+    height: 50px !important;
+    background-color:rgb(109, 106, 106);
+    margin-left:40px;
+}
+
+.form-ele-cntnr{
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+    margin: 0 30px 0 30px;
+    width:90%; 
+}
+.col-spacing{
+    width:10%;
+}
+.input-fields,.label-fields{
+    border: none;
+    outline:none;
+    border-radius:5px;
+    font-size: 16px;
+    padding:15px 30px 15px 30px;  
+}
+.input-fields{
+    width:100%;
+}
+.label-fields{
+    font-size:16px;
+    color: white;
+}
+
+
+/*=======================================  Vendor Portal CSS   =========================*/
+
+#ur-itm-btn{
+    margin-left:0;
+}
+.hover-invert:hover{
+    background-color:rgba(109, 106, 106, 0.893);
+}
+.btn-table{
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+    margin-bottom:50px;
+}
+
+/*==================================== User Portal CSS   =============================*/
+.user-logout-btn{
+    width:150px;
+    margin:0 auto 50px auto;
+}
